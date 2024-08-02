@@ -63,12 +63,10 @@ const TimesheetForm = ({
   };
 
   const handleSubmit = (e) => {
-    console.log(currentProject);
     e.preventDefault();
     timesheetRows[0].project = currentProject;
     const updatedTimeSheet = timesheetRows;
 
-    console.log(updatedTimeSheet);
     setTimesheetRows(updatedTimeSheet);
 
     if (timesheetRows[0].total > 0 && currentProject) {
@@ -77,7 +75,7 @@ const TimesheetForm = ({
       alert("Please enter time and Project");
     }
   };
-  console.log(timesheetRows);
+
   const handleMonthChange = (direction) => {
     setCurrentMonth((prevMonth) =>
       moment(prevMonth, "MMMM YYYY")
