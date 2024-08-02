@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.field {
+  display: flex;
+}
+
+.react-time-picker{
+  width: 1rem;
+}
