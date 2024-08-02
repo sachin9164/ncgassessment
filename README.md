@@ -33,7 +33,7 @@ Before you begin, ensure you have the following installed on your local machine:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/your-username/react-app.git
+    git clone https://github.com/sachin9164/ncgassessment.git
     cd react-app
     ```
 
